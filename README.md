@@ -1,2 +1,7 @@
 # Syllabot
-Backup of project from Senior Design, current state has web interface, db, and REST API endpoints all running in docker containers
+
+* Initialized with basic discord bot skeleton, one registered ping command
+
+# How to run
+* In root directory run the following
+`docker compose -f docker-compose.dev.yaml up --build`
